@@ -1,75 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
-    <title>Detailing Services</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overseas Consultants Kenya</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+    </style>
 </head>
+<body class="bg-gray-100">
+    
+    <!-- Top Bar -->
+    <div class="bg-blue-900 text-white py-3 px-6 flex justify-between items-center">
+        <div class="text-sm">
+            <span class="mr-4"><i class="fas fa-envelope"></i> ocklimited@gmail.com</span>
+            <span><i class="fas fa-phone"></i> +254 790 910 273</span>
+        </div>
+        <div class="space-x-3 text-lg">
+            <a href="#" class="hover:text-gray-300"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="hover:text-gray-300"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="hover:text-gray-300"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="hover:text-gray-300"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+    
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-xl font-semibold text-gray-900 flex items-center">
+                <img src="img/ock_logo.jpg" class="h-10 mr-2" alt="Logo"> OCK
+            </a>
+            <div class="hidden md:flex space-x-6 text-gray-700">
+                <a href="index.html" class="hover:text-blue-700">Home</a>
+                <a href="about.html" class="hover:text-blue-700">About</a>
+                <a href="service.html" class="hover:text-blue-700">Services</a>
+                <a href="countries.html" class="hover:text-blue-700">Countries</a>
+                <a href="contact.html" class="hover:text-blue-700">Contact</a>
+            </div>
+            <a href="application.html" class="bg-blue-700 text-white px-4 py-2 rounded-md hover:bg-blue-800">Apply</a>
+        </div>
+    </nav>
 
-<body class="bg-white text-black">
     <!-- Hero Section -->
-    <header class="relative w-full h-screen bg-cover bg-center flex items-center justify-center text-center text-white" style="background-image: url('img/hero-bg.jpg');">
-        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
-        <div class="relative z-10 px-6">
-            <h1 class="text-4xl md:text-6xl font-bold">Right to Your Home, Business, Dock, Marina, or Park</h1>
-            <p class="mt-4 text-lg">Serving Snohomish, Skagit, and Whatcom Counties</p>
-            <a href="#contact" class="mt-6 inline-block bg-orange-500 text-white py-3 px-6 rounded-lg text-lg font-medium">Text Us Now</a>
+    <div class="relative">
+        <img src="img/carousel-1.jpg" class="w-full h-[500px] object-cover" alt="Hero Image">
+        <div class="absolute inset-0 flex flex-col justify-center items-center text-center text-white bg-black bg-opacity-50">
+            <h1 class="text-4xl font-bold">Immigration Process Starts Here!</h1>
+            <p class="text-lg mt-4">Take the first step towards a brighter future abroad with our expert guidance.</p>
+            <a href="service.html" class="mt-6 px-6 py-3 bg-orange-500 hover:bg-orange-600 text-white rounded-lg">More Details</a>
         </div>
-    </header>
+    </div>
 
-    <!-- Services Overview -->
-    <section class="py-16 px-6">
-        <h2 class="text-center text-3xl font-semibold">Our Services</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
-            <div class="p-6 bg-gray-100 rounded-lg shadow-md text-center">
-                <h3 class="text-xl font-medium">RV Detailing</h3>
+    <!-- Services Section -->
+    <div class="container mx-auto py-12 px-6">
+        <h2 class="text-3xl font-bold text-center text-gray-800">Our Services</h2>
+        <div class="grid md:grid-cols-3 gap-6 mt-8">
+            <div class="bg-white p-6 shadow rounded-md">
+                <h3 class="text-xl font-semibold text-gray-700">OET Training</h3>
+                <p class="text-gray-600 mt-2">Professional training to help you pass your OET exams.</p>
+                <a href="oet-training.html" class="text-blue-600 mt-3 inline-block">Learn More</a>
             </div>
-            <div class="p-6 bg-gray-100 rounded-lg shadow-md text-center">
-                <h3 class="text-xl font-medium">Boat Detailing</h3>
+            <div class="bg-white p-6 shadow rounded-md">
+                <h3 class="text-xl font-semibold text-gray-700">Teaching Jobs Abroad</h3>
+                <p class="text-gray-600 mt-2">Find rewarding teaching jobs in Australia, UK, and USA.</p>
+                <a href="teaching-jobs.html" class="text-blue-600 mt-3 inline-block">Learn More</a>
             </div>
-            <div class="p-6 bg-gray-100 rounded-lg shadow-md text-center">
-                <h3 class="text-xl font-medium">Auto Detailing</h3>
-            </div>
-            <div class="p-6 bg-gray-100 rounded-lg shadow-md text-center">
-                <h3 class="text-xl font-medium">Mobile Service</h3>
+            <div class="bg-white p-6 shadow rounded-md">
+                <h3 class="text-xl font-semibold text-gray-700">Interview Coaching</h3>
+                <p class="text-gray-600 mt-2">Get expert guidance for job interviews and visa interviews.</p>
+                <a href="interview-coaching.html" class="text-blue-600 mt-3 inline-block">Learn More</a>
             </div>
         </div>
-    </section>
-
-    <!-- Before & After Section -->
-    <section class="py-16 px-6 bg-gray-100">
-        <h2 class="text-center text-3xl font-semibold">Before & After</h2>
-        <div class="flex justify-center gap-6 mt-8">
-            <img src="img/before.jpg" alt="Before" class="w-1/2 rounded-lg shadow-md">
-            <img src="img/after.jpg" alt="After" class="w-1/2 rounded-lg shadow-md">
-        </div>
-    </section>
-
-    <!-- Why Choose Us -->
-    <section class="py-16 px-6">
-        <h2 class="text-center text-3xl font-semibold">Why Choose Us?</h2>
-        <ul class="list-disc mt-6 mx-auto w-full max-w-lg text-lg">
-            <li>Experienced & Insured Professionals</li>
-            <li>High-Quality Products & Techniques</li>
-            <li>Customer Satisfaction Guaranteed</li>
-        </ul>
-    </section>
-
-    <!-- Customer Reviews -->
-    <section class="py-16 px-6 bg-gray-100">
-        <h2 class="text-center text-3xl font-semibold">Customer Reviews</h2>
-        <div class="mt-8 text-center">
-            <blockquote class="italic">"Amazing detailing service! My RV looks brand new!"</blockquote>
-            <p class="mt-2 font-semibold">- Happy Customer</p>
-        </div>
-    </section>
-
+    </div>
+    
     <!-- Footer -->
-    <footer class="py-6 bg-black text-white text-center">
-        <p>&copy; 2025 Detailing Services | All Rights Reserved</p>
+    <footer class="bg-blue-900 text-white py-6 mt-12">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2025 Overseas Consultants Kenya. All Rights Reserved.</p>
+            <p>Contact: <a href="mailto:ocklimited@gmail.com" class="underline">ocklimited@gmail.com</a></p>
+        </div>
     </footer>
+    
 </body>
 </html>
 
