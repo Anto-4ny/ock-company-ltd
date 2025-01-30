@@ -48,7 +48,7 @@ const displayMessage = (message, isSuccess = true) => {
 // Function to redirect to home.html after successful authentication
 const redirectToHome = () => {
   setTimeout(() => {
-    window.location.href = "home.html";
+    window.location.href = "home";
   }, 2000); // Redirect after showing a success message for 2 seconds
 };
 
@@ -175,6 +175,6 @@ const guestButton = document.querySelector(".guest-btn");
 
 guestButton.addEventListener("click", () => {
   // Redirect to home.html
-  window.location.href = "home.html";
+  window.location.href = "home";
 });
                                                             
